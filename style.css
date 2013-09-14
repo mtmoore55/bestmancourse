@@ -1,0 +1,125 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    box-sizing: border-box; 
+  }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, a, img {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+
+body {
+	background: #fff;
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+header {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.main {
+	background: url(img/bg.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.billboard {
+	width: 540px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 30px;
+	font-family: 'PT Serif', serif;
+	text-align: center;
+}
+
+	.billboard h2 {
+		font-size: 2em;
+		line-height: 1.2em;
+	}
+
+	.billboard p {
+		font-weight: 400;
+		font-size: 1.1em;
+		line-height: 1.8em;
+		margin-top: 1em;
+		color: #eee;
+	}
+
+	.billboard strong {
+		font-weight: 700;
+		color: #fff;
+	}
+
+.cta {
+	width: 460px;
+	padding: 18px;
+	margin: 2em auto 3em auto;
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 1px 15px #333;
+	font-family: 'Lato', sans-serif;
+}
+
+	.cta input {
+		width: 100%;
+		height: 52px;
+		margin-bottom: 8px;
+		font-size: 1em;
+		border-radius: 5px;
+		background: #efefef;
+		font-color: #666;
+		padding-left: 14px;
+		border: 1px #bcbcbc;
+	}
+
+	.cta .button {
+    -webkit-appearance: none;
+		height: 52px;
+		font-size: 1em;
+		border-radius: 5px;
+		border: 0px;
+		color: #fff;
+		background: -webkit-linear-gradient(top, #8e9860, #7d8651);
+		cursor: pointer;
+	}
+
+		.cta .button:hover {
+			background: -webkit-linear-gradient(top, #a0a975, #8e9860);
+		}
