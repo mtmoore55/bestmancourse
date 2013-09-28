@@ -135,3 +135,11 @@ header {
 		display: inline-block;
 		margin-right: 10px;
 	}
+
+	.social_buttons li.facebook {
+		width: 210px;
+	}
+
+	.social_buttons li.twitter {
+		width: 100px;
+	}
