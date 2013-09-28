@@ -126,14 +126,13 @@ header {
 
 .social_buttons {
 	width: 500px;
-	margin: 0 auto 2em auto;
+	margin: 2em auto 2em auto;
 	color: #fff;
-	text-align: right;
+	text-align: left;
 }
 
 	.social_buttons li {
 		display: inline-block;
-		margin-right: 10px;
 	}
 
 	.social_buttons li.facebook {
