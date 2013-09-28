@@ -137,10 +137,10 @@ header {
 	}
 
 	.social_buttons li.facebook {
-		float: left;
 	}
 
 	.social_buttons li.twitter {
+		float: right;
 	}
 
 	.pluginFontHelvetica {
