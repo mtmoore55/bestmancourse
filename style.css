@@ -128,6 +128,7 @@ header {
 	width: 450px;
 	margin: 0 auto 2em auto;
 	color: #fff;
+	text-align: right;
 }
 
 	.social_buttons li {
@@ -142,6 +143,6 @@ header {
 	.social_buttons li.twitter {
 	}
 
-	.pluginFontArial {
+	.pluginFontHelvetica {
 		color: #fff;
 	}
