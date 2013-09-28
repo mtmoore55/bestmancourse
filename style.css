@@ -128,4 +128,10 @@ header {
 	width: 600px;
 	margin: 0 auto 2em auto;
 	text-align: center;
+	color: #fff;
 }
+
+	.social_buttons li {
+		display: inline-block;
+		margin-right: 10px;
+	}
