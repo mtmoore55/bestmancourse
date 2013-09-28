@@ -11,23 +11,37 @@ typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var
 b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("8bf8727e0f543d5e7756527d0ba50525");</script><!-- end Mixpanel -->
 
-<script type="text/javascript">
-var fb_param = {};
-fb_param.pixel_id = '6009980279643';
-fb_param.value = '0.00';
-fb_param.currency = 'USD';
-(function(){
-  var fpw = document.createElement('script');
-  fpw.async = true;
-  fpw.src = '//connect.facebook.net/en_US/fp.js';
-  var ref = document.getElementsByTagName('script')[0];
-  ref.parentNode.insertBefore(fpw, ref);
-})();
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6009980279643&amp;value=0&amp;currency=USD" /></noscript>
 
 </head>
 <body>
+
+<!-- Start Facebook Pixel Tracker -->
+<script type="text/javascript">
+	var fb_param = {};
+	fb_param.pixel_id = '6009980279643';
+	fb_param.value = '0.00';
+	fb_param.currency = 'USD';
+	(function(){
+	  var fpw = document.createElement('script');
+	  fpw.async = true;
+	  fpw.src = '//connect.facebook.net/en_US/fp.js';
+	  var ref = document.getElementsByTagName('script')[0];
+	  ref.parentNode.insertBefore(fpw, ref);
+	})();
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6009980279643&amp;value=0&amp;currency=USD" /></noscript>
+<!-- End Facebook Pixel Tracker -->
+
+<!-- Start Social Buttons -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=204060502992458";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End Social Buttons -->
 
 <header>
 	<img src="img/bestmancourse.png" alt="Best Man Course" />
@@ -58,9 +72,15 @@ fb_param.currency = 'USD';
 				</div>
 			</form>
 		</div>
-
 	<!--End mc_embed_signup-->
+
 	</section>
+
+	<div class="social_buttons">
+		<div class="fb-like" data-href="http://facebook.com/bestmancourse" data-width="200" data-show-faces="true" data-send="true"></div>
+		<a href="https://twitter.com/bestmancourse" class="twitter-follow-button" data-show-count="false">Follow @bestmancourse</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
 
 </div>
 

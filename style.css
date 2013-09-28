@@ -60,7 +60,7 @@ header {
 }
 
 .billboard {
-	width: 540px;
+	width: 600px;
 	margin: 0 auto;
 	color: #fff;
 	padding-top: 30px;
@@ -89,7 +89,7 @@ header {
 .cta {
 	width: 460px;
 	padding: 18px;
-	margin: 2em auto 3em auto;
+	margin: 2em auto;
 	background: #fff;
 	text-align: center;
 	border-radius: 5px;
@@ -123,3 +123,9 @@ header {
 		.cta .button:hover {
 			background: -webkit-linear-gradient(top, #a0a975, #8e9860);
 		}
+
+.social_buttons {
+	width: 600px;
+	margin: 0 auto 2em auto;
+	text-align: center;
+}
