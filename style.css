@@ -125,9 +125,8 @@ header {
 		}
 
 .social_buttons {
-	width: 600px;
+	width: 450px;
 	margin: 0 auto 2em auto;
-	text-align: center;
 	color: #fff;
 }
 
@@ -137,9 +136,12 @@ header {
 	}
 
 	.social_buttons li.facebook {
-		width: 210px;
+		float: left;
 	}
 
 	.social_buttons li.twitter {
-		width: 100px;
+	}
+
+	.pluginFontArial {
+		color: #fff;
 	}
