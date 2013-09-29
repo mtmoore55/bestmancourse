@@ -60,7 +60,7 @@ header {
 }
 
 .billboard {
-	width: 600px;
+	width: 720px;
 	margin: 0 auto;
 	color: #fff;
 	padding-top: 30px;
@@ -97,8 +97,23 @@ header {
 	font-family: 'Lato', sans-serif;
 }
 
+	.cta p {
+		font-family: 'PT Serif', serif;
+		font-weight: 400;
+		font-size: 1em;
+		line-height: 1.4em;
+		color: #666;
+		margin-bottom: 1em;
+	}
+
+	.cta img {
+		height: 113px;
+		width: 92px;
+		float: left;
+	}
+
 	.cta input {
-		width: 100%;
+		width: 70%;
 		height: 52px;
 		margin-bottom: 8px;
 		font-size: 1em;
